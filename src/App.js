@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Navigation from "./components/Navigation";
 import AboutPage from "./views/AboutPage";
 import ExperiencePage from "./views/ExperiencePage";
+import ProjectsPage from "./views/ProjectPage";
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState("about");
@@ -12,6 +13,8 @@ const App = () => {
         return <AboutPage />;
       case "experience":
         return <ExperiencePage />;
+      case "projects":
+        return <ProjectsPage />;
       default:
         return <AboutPage />;
     }

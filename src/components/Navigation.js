@@ -60,15 +60,13 @@ const Navigation = ({ currentPage, setCurrentPage }) => {
       </a>
 
       <a
-        href="#resume"
-        onClick={(e) => {
-          e.preventDefault();
-          setCurrentPage("resume");
-        }}
+        href="https://drive.google.com/file/d/1OjK1dTdh9Im9X3K589GTjQrdI5eI-uBR/view?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
         style={{
-          color: currentPage === "resume" ? "#000000ff" : "#666",
+          color: "#666",
           textDecoration: "none",
-          fontWeight: currentPage === "resume" ? "500" : "400",
+          fontWeight: "400",
           cursor: "pointer",
         }}
       >
