@@ -1,4 +1,5 @@
 import React from "react";
+import profileImage from "../assets/profile.jpeg";
 
 const ProfileSidebar = () => {
   return (
@@ -14,7 +15,7 @@ const ProfileSidebar = () => {
         }}
       >
         <img
-          src="https://via.placeholder.com/280x320"
+          src={profileImage}
           alt="Profile"
           style={{
             width: "100%",
@@ -33,15 +34,24 @@ const ProfileSidebar = () => {
           }}
         >
           <p style={{ marginBottom: "20px" }}>
-            <strong>Your Title</strong>
+            <strong>
+              <a href="mailto:kamath.ak@northeastern.edu">Email</a>
+            </strong>
             <br />
-            Department
           </p>
 
           <p>
-            <strong>Director of Your Lab</strong>
+            <strong>
+              <a href="https://www.linkedin.com/in/akshathkamath/">LinkedIn</a>
+            </strong>
             <br />
-            Institute Name
+          </p>
+
+          <p>
+            <strong>
+              <a href="https://github.com/AkshathKamath">GitHub</a>
+            </strong>
+            <br />
           </p>
         </div>
       </div>

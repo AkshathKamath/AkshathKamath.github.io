@@ -14,7 +14,7 @@ const Navigation = () => {
       <a
         href="#about"
         style={{
-          color: "#e91e63",
+          color: "#000000ff",
           textDecoration: "none",
           fontWeight: "500",
         }}
@@ -22,31 +22,31 @@ const Navigation = () => {
         About
       </a>
       <a
-        href="#publications"
+        href="#experience"
         style={{
           color: "#666",
           textDecoration: "none",
         }}
       >
-        Publications
+        Experience
       </a>
       <a
-        href="#students"
+        href="#project"
         style={{
           color: "#666",
           textDecoration: "none",
         }}
       >
-        Students
+        Projects
       </a>
       <a
-        href="#cv"
+        href="#resume"
         style={{
           color: "#666",
           textDecoration: "none",
         }}
       >
-        CV
+        Resume
       </a>
     </nav>
   );
