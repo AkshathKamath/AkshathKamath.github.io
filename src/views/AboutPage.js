@@ -7,7 +7,7 @@ const AboutPage = () => {
       style={{
         maxWidth: "1200px",
         margin: "0 auto",
-        padding: "60px 40px",
+        padding: "20px 40px",
         display: "flex",
         gap: "60px",
         alignItems: "flex-start",

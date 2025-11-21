@@ -33,7 +33,7 @@ const ProfileSidebar = () => {
             color: "#333",
           }}
         >
-          <p style={{ marginBottom: "20px" }}>
+          <p>
             <strong>
               <a href="mailto:kamath.ak@northeastern.edu">Email</a>
             </strong>

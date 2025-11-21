@@ -1,6 +1,6 @@
 import React from "react";
 
-const Navigation = () => {
+const Navigation = ({ currentPage, setCurrentPage }) => {
   return (
     <nav
       style={{
@@ -13,37 +13,63 @@ const Navigation = () => {
     >
       <a
         href="#about"
+        onClick={(e) => {
+          e.preventDefault();
+          setCurrentPage("about");
+        }}
         style={{
-          color: "#000000ff",
+          color: currentPage === "about" ? "#000000ff" : "#666",
           textDecoration: "none",
-          fontWeight: "500",
+          fontWeight: currentPage === "about" ? "500" : "400",
+          cursor: "pointer",
         }}
       >
         About
       </a>
+
       <a
         href="#experience"
+        onClick={(e) => {
+          e.preventDefault();
+          setCurrentPage("experience");
+        }}
         style={{
-          color: "#666",
+          color: currentPage === "experience" ? "#000000ff" : "#666",
           textDecoration: "none",
+          fontWeight: currentPage === "experience" ? "500" : "400",
+          cursor: "pointer",
         }}
       >
         Experience
       </a>
+
       <a
-        href="#project"
+        href="#projects"
+        onClick={(e) => {
+          e.preventDefault();
+          setCurrentPage("projects");
+        }}
         style={{
-          color: "#666",
+          color: currentPage === "projects" ? "#000000ff" : "#666",
           textDecoration: "none",
+          fontWeight: currentPage === "projects" ? "500" : "400",
+          cursor: "pointer",
         }}
       >
         Projects
       </a>
+
       <a
         href="#resume"
+        onClick={(e) => {
+          e.preventDefault();
+          setCurrentPage("resume");
+        }}
         style={{
-          color: "#666",
+          color: currentPage === "resume" ? "#000000ff" : "#666",
           textDecoration: "none",
+          fontWeight: currentPage === "resume" ? "500" : "400",
+          cursor: "pointer",
         }}
       >
         Resume
