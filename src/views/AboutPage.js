@@ -73,7 +73,7 @@ const AboutPage = () => {
           </p>
           <p>
             Currently seeking full-time Software Engineering or Machine Learning
-            Engineering roles starting June 2026. Open to opportunities in
+            Engineering roles starting May 2026. Open to opportunities in
             backend infrastructure, AI/ML systems, distributed systems, or
             full-stack development where I can contribute to building scalable,
             impactful products.
